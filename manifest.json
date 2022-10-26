@@ -23,13 +23,13 @@
   "commands": {
     "Copy_selected_text_to_Pt": {
       "suggested_key": {
-        "default": "Alt+4"
+        "default": "Alt+8"
       },
       "description": "copy selected text to ES variable"
     },
     "Copy_selected_text_to_Ru": {
       "suggested_key": {
-        "default": "Alt+5"
+        "default": "Alt+9"
       },
       "description": "copy selected text to IT variable"
     }
