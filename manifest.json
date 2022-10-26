@@ -1,0 +1,37 @@
+{
+  "name": "copy text virtual expo module 3",
+  "version": "0.0.0.1",
+  "manifest_version": 3,
+  "description": "Copy all text from tab ",
+  "permissions": [
+    "storage",
+    "clipboardRead",
+    "tabs",
+    "pageCapture",
+    "activeTab",
+    "scripting"
+  ],
+  "icons": {
+    "16": "img/icon16x16.png",
+    "32": "img/icon32x32.png",
+    "128": "img/icon128x128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "commands": {
+    "Copy_selected_text_to_Pt": {
+      "suggested_key": {
+        "default": "Alt+4"
+      },
+      "description": "copy selected text to ES variable"
+    },
+    "Copy_selected_text_to_Ru": {
+      "suggested_key": {
+        "default": "Alt+5"
+      },
+      "description": "copy selected text to IT variable"
+    }
+  }
+}
