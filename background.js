@@ -32,5 +32,17 @@ chrome.commands.onCommand.addListener((command) => {
         files: ['./script/getRuText.js'],
       });
     }
+    if (command === 'Copy_selected_text_to_ZH') {
+      chrome.scripting.executeScript({
+        target: { tabId: tabId },
+        files: ['./script/getZhText.js'],
+      });
+    }
+    if (command === 'inject_text') {
+      chrome.scripting.executeScript({
+        target: { tabId: tabId },
+        files: ['./script/injectText.js'],
+      });
+    }
   });
 });
